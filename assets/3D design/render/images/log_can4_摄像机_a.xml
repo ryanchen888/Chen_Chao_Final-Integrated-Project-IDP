@@ -1,0 +1,51 @@
+<batchrender>
+  <environmentinfo>
+    <machineinfo>
+      <machinename>DESKTOP-MNCPVG7</machinename>
+      <username>Ryan</username>
+      <processortype>GenuineIntel, stepping 3, model 10, instruction family 6</processortype>
+      <processorname>12th Gen Intel Core i7-12700H</processorname>
+      <processornumber>20</processornumber>
+      <ostype>WINDOWS 64 BIT</ostype>
+      <osversion>Windows 10, 64 Bit, China (build 22621)</osversion>
+      <oglvendorname>NVIDIA</oglvendorname>
+      <oglrendername>NVIDIA GeForce RTX 3050 Laptop GPU</oglrendername>
+      <oglversion>12</oglversion>
+    </machineinfo>
+    <c4dinfo>
+      <c4dversion>25120</c4dversion>
+      <c4dplugins>cadexchangeconfig substanceconfig addons advanced_render alembic archigrass assetbrowser bitmapfilter bpexchange browser bugslife_client c4d_emulation c4d_viewport_render ca ca2 cadexchange clothilde collada14 collada15 colorchoosergui compositing deltamush deployment dwg dwgobjects dynamics exchanges expressiontag fbx gltf goz hair i_skp interop interop_forger io_forger io_obj metrics mkmodeler mocca model mograph motioncam motiontracker nbo nbp newman nodeeditor objects onlineupdater physx_hybrid projectassetinspector python redshift relaxuv scenemanager2 sculpt sculptbrushes shader sketch sky sla spacemouse substance teamrender thinking_particles tool_system_hybrid tpoperators usd uvviewport volumes xpressocore xtensions </c4dplugins>
+    </c4dinfo>
+  </environmentinfo>
+  <fileinfo>
+    <filename>can4.c4d</filename>
+    <filepath>C:\Users\Ryan\Desktop\FIP\can\render\images</filepath>
+    <renderdatainfo>
+      <rendersettings>&#x6211;&#x7684;&#x6e32;&#x67d3;&#x8bbe;&#x7f6e;</rendersettings>
+      <take>&#x4e3b;&#x8981;</take>
+      <camera>&#x6444;&#x50cf;&#x673a;</camera>
+      <width>1280</width>
+      <height>720</height>
+      <filmaspect>1.778</filmaspect>
+      <pixelaspect>1</pixelaspect>
+      <fps>30</fps>
+      <from>0</from>
+      <to>0</to>
+      <steps>1</steps>
+      <saveinfo>
+        <imagepath>C:\Users\Ryan\Desktop\FIP\can\render\images</imagepath>
+        <imagedepth>8</imagedepth>
+        <imageformat>JPG</imageformat>
+      </saveinfo>
+    </renderdatainfo>
+  </fileinfo>
+  <renderinfo>
+    <imageinfo frame="0">00:00:35 C:\Users\Ryan\Desktop\FIP\can\render\images\can4_&#x6444;&#x50cf;&#x673a;_a.jpg</imageinfo>
+  </renderinfo>
+  <batchinfo>
+    <added>2023-03-30, 12:27:02 PM</added>
+    <started>2023-03-30, 12:27:07 PM</started>
+    <rendertime>00:00:35</rendertime>
+    <result>&#x5df2;&#x5b8c;&#x6210;</result>
+  </batchinfo>
+</batchrender>
