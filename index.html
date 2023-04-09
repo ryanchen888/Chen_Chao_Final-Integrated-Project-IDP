@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Dr.Nut Home Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="full-width-grid-con mobile-container">
+        <div class="header-wrapper col-start-2 col-end-3">
+            <div class="l-col-start-1 l-col-end-3 xl-col-start-1 xl-col-end-3 m-col-start-1 m-col-end-3">
+                <img class="header-logo" src="./img/logo.png" alt="" onclick="locationHome()">
+            </div>
+            <ul class="header-menu l-col-start-6 l-col-end-12 xl-col-start-6 xl-col-end-12 m-hide">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./404.html">HISTORY</a></li>
+                <li><a href="./404.html">BLOG</a></li>
+                <li><a href="./product.html">PRODUCT</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+            <div class="header-icon l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13 m-hide">
+                <img src="./img/Icon-facebook.svg" alt="">
+                <img src="./img/Icon-twitter.svg" alt="">
+                <img src="./img/Icon-instagram.svg" alt="">
+            </div>
+            <div class="header-icon header-ext m-col-start-11 m-col-end-13 l-hide xl-hide">
+                <img class="header-icon-ext" src="./img/header-menu.svg" alt="" onclick="openLayer()">
+            </div>
+        </div>
+        <div class="header-menu-ext m-col-start-1 m-col-end-13" onclick="closeLayer()">
+            <div class="header-menu-ext-name">MENU</div>
+            <ul class="header-menu-ext-item">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./404.html">HISTORY</a></li>
+                <li><a href="./404.html">BLOG</a></li>
+                <li><a href="./product.html">PRODUCT</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+            <div class="header-menu-ext-name">Social Media</div>
+            <ul class="header-menu-ext-item">
+                <li>
+                    <img class="header-menu-ext-item-icon" src="./img/Icon-facebook.svg" alt="">
+                    <div>FaceBook</div>
+                </li>
+                <li>
+                    <img class="header-menu-ext-item-icon" src="./img/Icon-twitter.svg" alt="">
+                    <div>Twitter</div>
+                </li>
+                <li>
+                    <img class="header-menu-ext-item-icon" src="./img/Icon-instagram.svg" alt="">
+                    <div>Instagram</div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- top -->
+    <div class="top-container bg-container">
+        <img class="top-image l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8 m-col-start-5 m-col-end-9" src="./img/logo-small.png" alt="">
+        <div class="top-content l-col-start-5 l-col-end-9 xl-col-start-5 xl-col-end-9 m-col-start-3 m-col-end-11">
+            <div class="top-text-bold">Get nutty with Dr.nut beer! The perfect cure for a dull day!</div>
+            <div class="top-text-normal">One sip of Dr.nut beer and you'll feel alive again - the perfect pick-me-up!</div>
+            <div class="top-text-normal">Dr.nut beer's unique formula is specially crafted to revive your senses, rekindle your spirit, and bring you back to life with each sip.</div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <main>
+        <div class="full-width-grid-con mobile-container">
+            <div class="title-wrapper col-start-2 col-end-3">
+                <img src="./img/Icon-history.svg" alt="">
+                <div class="title-text">History</div>
+            </div>
+        </div>
+        <!-- history -->
+        <div class="full-width-grid-con mobile-container">
+            <div class="history-container col-start-2 col-end-3">
+                <div class="history-text l-col-start-2 l-col-end-12 m-col-start-1 m-col-end-13">
+                    Dr. Nut was a soft drink produced by New Orleans-based World Bottling Company (and later by another New Orleans company, Wright Root Beer).
+                    It was introduced in the 1930s and was produced until the late 1970s. Dr. Nut had a distinct almond flavor, similar to Amaretto liquor, and bottles 
+                    were characterized by their plain logo depicting a squirrel nibbling on a large nut.
+                </div>
+                <img class="history-img l-col-start-2 l-col-end-12 m-col-start-1 m-col-end-13" src="./img/history-img.JPG" alt="">
+                <div class="history-text l-col-start-2 l-col-end-12 m-col-start-1 m-col-end-13">
+                    The drink was made famous to a new generation in John Kennedy Toole's novel A Confederacy of Dunces, in which it is a favorite drink of the main character             Ignatius Reilly. His copious consumption of the drink is a comic example of the discrepancies between Ignatius' purportedly ascetic medieval values and his undisciplined, gluttonous lifestyle.
+                </div>
+                <button class="common-button l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8 m-col-start-3 m-col-end-11" onclick="location404()">Learn more</button>
+            </div>
+        </div>
+
+        <!-- title -->
+        <div class="full-width-grid-con mobile-container">
+            <div class="title-wrapper col-start-2 col-end-3">
+                <img src="./img/Icon-blog.svg" alt="">
+                <div class="title-text">Blog</div>
+            </div>
+        </div>
+        <!-- blog -->
+
+        <div class="full-width-grid-con mobile-container">
+            <div class="blog-container col-start-2 col-end-3">
+                <video class="blog-video l-col-start-2 l-col-end-12 m-col-start-1 m-col-end-13" src="./img/blog-video.mp4" controls></video>
+                <div class="blog-text l-col-start-2 l-col-end-12 m-col-start-1 m-col-end-13">
+                    Welcome to the Dr. Nut blog, where we love to share stories and insights about our delicious beer brand. 
+                    Our unique and refreshing beer is crafted with the highest quality ingredients, resulting in a crisp and
+                    smooth taste that beer enthusiasts can't get enough of.
+                    At Dr. Nut, we're committed to staying true to our roots and honoring the traditional brewing techniques
+                    that have made our beer so special. We're also passionate about innovation and creativity, and constantly
+                    exploring new ways to enhance the drinking experience for our loyal fans.
+                    Whether you're enjoying a cold Dr. Nut after a long day or sharing a few rounds with friends, our beer is 
+                    the perfect companion for any occasion. Stay tuned to our blog for updates on new releases, events,
+                    and other exciting news from the world of Dr. Nut. Cheers!
+                </div>
+                <button class="common-button l-col-start-6 l-col-end-8 m-col-start-3 m-col-end-11" onclick="location404()">Learn more</button>
+            </div>
+        </div>
+
+        <!-- title -->
+        <div class="full-width-grid-con mobile-container">
+            <div class="title-wrapper col-start-2 col-end-3">
+                <img src="./img/Icon-product.svg" alt="">
+                <div class="title-text">Product</div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="full-width-grid-con mobile-container">
+            <div class="product-container col-start-2 col-end-3">
+                <img class="product-arrow m-col-start-1 m-col-end-3" src="./img/Icon-left.svg" alt="" onclick="productSwitch(-1)">
+                <img class="product-arrow-ex l-col-start-2 l-col-end-3 xl-col-start-4 xl-col-end-5" src="./img/Icon-arrow.svg" alt="" onclick="tabProductSwitch()">
+                <div class="product-item product-item-1 l-col-start-3 l-col-end-6 xl-col-start-5 xl-col-end-7 m-col-start-3 m-col-end-11"></div>
+                <div class="product-item product-item-2 l-col-start-6 l-col-end-9 xl-col-start-7 xl-col-end-9 m-col-start-3 m-col-end-11"></div>
+                <div class="product-item product-item-3 l-col-start-9 l-col-end-12 xl-col-start-9 xl-col-end-11 m-col-start-3 m-col-end-11"></div>
+                <div class="product-item product-item-4 xl-col-start-11 xl-col-end-13 m-col-start-3 m-col-end-11 l-hide"></div>
+                <div class="product-item product-item-5 m-col-start-3 m-col-end-11 l-hide xl-hide"></div>
+                <img class="product-arrow m-col-start-11 m-col-end-13" src="./img/Icon-right.svg" alt="" onclick="productSwitch(1)">
+                <div class="l-col-start-1 l-col-end-13 xl-col-start-1 xl-col-end-13 m-hide">
+                    <div class="circle-wrapper circle-wrapper-1 xl-hide">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                    </div>
+                    <div class="circle-wrapper circle-wrapper-2 xl-hide">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                    </div>
+                    <div class="circle-wrapper circle-wrapper-3 l-hide">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                    </div>
+                    <div class="circle-wrapper circle-wrapper-4 l-hide">
+                        <img class="circle-item" src="./img/Icon-dot-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                        <img class="circle-item" src="./img/Icon-circle.svg" alt="">
+                    </div>
+                </div>
+                <button class="common-button l-col-start-6 l-col-end-8 m-col-start-2 m-col-end-12" onclick="location404()">View All Items</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- title -->
+    <div class="full-width-grid-con mobile-container">
+        <div class="title-wrapper col-start-2 col-end-3">
+            <img src="./img/Icon-material-location-city.svg" alt="">
+            <div class="title-text">Contact Us</div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="full-width-grid-con mobile-container">
+        <div class="contact-wrapper col-start-2 col-end-3">
+            <div class="contact-map l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 m-col-start-1 m-col-end-13"></div>
+            <button class="common-button l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8 m-col-start-4 m-col-end-10" onclick="locationMesage()">Leave A Message</button>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="full-width-grid-con footer-container">
+        <div class="footer-wrapper col-start-2 col-end-3 mobile-container">
+            <div class="footer-item-1 l-col-start-1 l-col-end-4 xl-col-start-1 xl-col-end-4 m-col-start-1 m-col-end-13">
+                <img class="footer-left-logo" src="./img/logo.png" alt="" onclick="locationHome()">
+                <div class="footer-left-content">
+                    Discover the irresistible taste of Dr. Nut Beer - where nuttiness meets perfection in every sip!
+                </div>
+            </div>
+            <div class="footer-item-2 l-col-start-7 xl-col-end-9 l-col-start-7 xl-col-end-9 m-col-start-1 m-col-end-7">
+                <div class="footer-right-title"><a href="./404.html">ABOUT</a></div>
+                <div class="footer-right-text"><a href="./404.html">Team</a></div>
+                <div class="footer-right-text"><a href="./404.html">Location</a></div>
+                <div class="footer-right-text"><a href="./404.html">Privacy</a></div>
+                <div class="footer-right-text"><a href="./404.html">Terms</a></div>
+            </div>
+            <div class="footer-item-3 l-col-start-9 l-col-end-11 xl-col-start-9 xl-col-end-11 m-col-start-7 m-col-end-13">
+                <div class="footer-right-title"><a href="./index.html">Home</a></div>
+                <div class="footer-right-text"><a href="./404.html">History</a></div>
+                <div class="footer-right-text"><a href="./404.html">Blog</a></div>
+                <div class="footer-right-text"><a href="./product.html">Product</a></div>
+                <div class="footer-right-text"><a href="./contact.html">Contact</a></div>
+            </div>
+            <div class="footer-item-4 l-col-start-11 l-col-end-13 xl-col-start-11 xl-col-end-13 m-col-start-1 m-col-end-7">
+                <div class="footer-right-title"><a href="./404.html">RESOURCES</a></div>
+                <div class="footer-right-text"><a href="./404.html">Facebook</a></div>
+                <div class="footer-right-text"><a href="./404.html">Twitter</a></div>
+                <div class="footer-right-text"><a href="./404.html">INS</a></div>
+                <div class="footer-right-text"><a href="./404.html">Youtube</a></div>
+            </div>
+            <div class="footer-corp l-col-start-1 l-col-end-13 xl-col-start-1 xl-col-end-13 m-col-start-1 m-col-end-13">2023 All rights reserved.</div>
+        </div>
+    </footer>
+    <script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.contact-container
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-bottom: 50px;
+}
+
+.contact-form
+{
+    margin-bottom: 20px;
+}
+
+.contact-line
+{
+    padding: 0px 10px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    margin: 20px 0px;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px #999999;
+}
+
+.contact-name
+{
+    font-size: 14px;
+    color: #7e9696;
+}
+
+.contact-input
+{
+    height: 36px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.contact-textarea
+{
+    height: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.contact-button
+{
+    background: #3a3a3a;
+    color: #6f9d9d;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-button:hover { 
+    background-color: #187b7b; 
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
