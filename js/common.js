@@ -13,6 +13,11 @@ function location404()
     location.href = "./404.html";
 }
 
+function locationproduct()
+{
+    location.href = "./product.html";
+}
+
 var isLayer = false;
 
 function openLayer()
